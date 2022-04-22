@@ -4,5 +4,16 @@
   "description": "react/react-native state like svelte",
   "main": "index.js",
   "author": "ryujaewan(dmg1414@naver.com)",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "rn",
+    "svelte"
+  ],
+  "homepage": "https://github.com/lingobong/ryucheat-state-react",
+  "bugs": {
+    "url": "https://github.com/lingobong/ryucheat-state-react/issues",
+    "email": "dmg1414@naver.com"
+  }
 }
