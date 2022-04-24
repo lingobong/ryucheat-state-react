@@ -22,24 +22,24 @@ import { name, date } from './@plugins/RCS';
 import { unmount } from 'ryucheat-state-react';
 
 class CustomView1 extends React.Component {
-  date = date(this);
   componentWillUnmount() {
     unmount(this);
   }
   render() {
+    let d = date(this);
     return <>
-      <Text>{this.date.get().toLocaleString()}</Text>
+      <Text>{d.toLocaleString()}</Text>
     </>
   }
 }
 
 class CustomView2 extends React.Component {
-  name = name(this);
   componentWillUnmount() {
     unmount(this);
   }
   render() {
-    return <Text>{this.name.get()}</Text>
+    let n = name(this);
+    return <Text>{name}</Text>
   }
 }
 
