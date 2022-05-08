@@ -39,7 +39,7 @@ class CustomView2 extends React.Component {
   }
   render() {
     let n = name(this);
-    return <Text>{name}</Text>
+    return <Text>{n}</Text>
   }
 }
 
