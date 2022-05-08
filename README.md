@@ -18,7 +18,7 @@ export const date = readable(new Date(), (set) => {
 
 ### index.js
 ```js
-import { name, date } from './@plugins/RCS';
+import { name, date } from './state';
 import { unmount } from 'ryucheat-state-react';
 
 class CustomView1 extends React.Component {
